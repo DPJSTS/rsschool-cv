@@ -1,3 +1,3 @@
 # Dp JSDev
 
-## Contacts
+## Specialization
