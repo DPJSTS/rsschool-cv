@@ -12,7 +12,7 @@
 
 ## Skills and proficiency:
 * blablabla2 super
-* blablabla super 2
+* blablabla2 super 2
 * blablabla super 3
 
 ## Code example:
