@@ -11,7 +11,7 @@
 #### blablabla superboy
 
 ## Skills and proficiency:
-* blablabla super
+* blablabla2 super
 * blablabla super 2
 * blablabla super 3
 
