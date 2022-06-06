@@ -13,7 +13,7 @@
 ## Skills and proficiency:
 * blablabla2 super
 * blablabla2 super 2
-* blablabla super 3
+* blablabla3 super 3
 
 ## Code example:
 ```
