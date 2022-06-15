@@ -1,0 +1,73 @@
+
+body {
+	min-height: 100vh;
+	margin: 0; 
+	padding: 0;
+	background-color: #D0FFCE;
+	text-align: center;
+	}
+main {
+	text-align: left;
+	}
+main h2,h3{
+	text-align: center;
+	}	
+pre {
+	padding: 0px 190px 0px 0px;
+	margin: 20px 0px 0px 0px;
+	}
+#docarea {
+	width: 800px;
+	padding: 20px;
+	background-color: #B5CBFF;
+	margin-left: auto;
+	margin-right: auto;
+	}
+ul {
+	list-style: none;
+	}
+
+.nav-list li {
+	text-decoration: underline;
+	transition-duration: .3s;
+	}
+.nav-list a:hover {
+	font-size: 20px;
+	color: red;
+	}
+	
+.nav-list li {
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid black;
+	border-radius: 5px;
+    padding: 5px;	
+	}
+header,main {
+	margin: 15px 0px;
+	border-radius: 3px;
+	}
+	
+.nav-list{
+	padding: 5px;
+	margin: 15px 0px;
+	border-radius: 3px;
+	}
+
+#git div {
+	display: inline;
+	}
+.year {
+	font-size: 20px;
+}
+header,main,.nav-list {
+	background-color: #F5FFC4;
+	}
+.myimg {
+	border-radius: 40px 40px;
+	transition-duration: .2s;
+	align: left;
+	}
+.myimg:hover {
+	width: 300px;
+	}
