@@ -2,88 +2,97 @@
 <html lang="en">
 <head>
 				<meta charset="UTF-8">
-				<title>MYCV</title>
+				<title>DPJSTS_CV</title>
 				<link rel="stylesheet" href="style.css">
+				<link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-	<div id="area">
+	<div id="docarea">
 	<header>
 		<h1>Ermolenko Dmitry</h1>
-		<div><img src="imgs/myphoto.jpg" alt="my cv photo" class="img" width="250"></div>
+		<div><img src="assets/img/myphoto.jpg" alt="my cv photo" class="myimg" width="250"></div>
+		<nav class="nav">
+			<ul class="nav-list">
+				<li><a href="#about">About myself</a></li>
+				<li><a href="#courses">Courses</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#code">Code example</a></li>
+				<li><a href="#languages">Languages</a></li>
+				<li><a href="#git">My Git</a></li>
+			</ul>
+		</nav>
 	</header>
-	<nav>
-		<h2>Nav</h2>
-		<ul id="nav">
-			<li><a href="#courses">Courses</a></li>
-			<li><a href="#languages">Languages</a></li>
-			<li><a href="#footer">Github</a></li>
-		</ul>
-	</nav>
+		
 	<main>
 		<div>
 			<h2>Contact information:</h2>
 			<ul>
-				<li>Phone: +375(29)*******</li>
-				<li>E-mail: ****@gmail.com</li>
+				<li>Phone: +375(29)0000000</li>
+				<li>E-mail: testmail@gmail.com</li>
 			</ul>
 		</div>
-		<div>
-			<h2>Skills and Proficieny:</h2>
+		<div id="skills">
+			<h2>Skills:</h2>
 			<ul>
+				<li>Siemens Step7 Adv</li>
+				<li>Siemens WinCC Adv</li>
 				<li>HTML5 Basic</li>
 				<li>CSS Basic</li>
 				<li>JavaScript Basic</li>
 				<li>VS Code Basic</li>
 			</ul>
 		</div>
-		<div>
-			<h2>About Myself:</h2>
-			<p>I want to be a professional js engineer.</p>
+		<div id="about">
+			<h2>About myself:</h2>
+			<p>SCADA and PLC software engineering is my lead skill at this moment. I try to increase my hardware and software skills. And i want to be a professional JS-frontend engineer.</p>
 		</div>
-		<div>
+		<div id="code">
 			<h2>Code Example</h2>
 			<pre>
-				function multiply(c, b){
-				let result = c * b;
-			  return result
-	 }
+				const foo = 5;
+				let bar = foo;
+				bar = 11;
+				console.log(foo, bar); // => 5, 11
 			</pre>
 		</div>
 		<div>
-			<h2>Projects</h2>
+			<h2>My projects</h2>
 			<p>
-				<a href="https://dpjsts.github.io/rsschool-cv">CV</a>
+				<h3><a href="https://dpjsts.github.io/rsschool-cv">CV_project</a></h3>
 			</p>
 		</div>
-		<div>
+		<div id="education">
 			<h2>Education</h2>
-			<p>Suhoi</p>
+			<p>Pavel Sukhoi State Technical University of Gomel (electronics engineer, software engineer)</p>
 		</div>
 		<div id="courses">
 			<h2>Courses:</h2>
 			<p>
-				RS Schools Course «Javascript/Front-end.Stage 0» (in progress)
+				RS Schools Course "Javascript/Front-end.Stage 0" (in progress)
 			</p>
 		</div>
 		<div id="languages">
 			<h2>Languages</h2>
 			<ul>
+				<li>Belarusian: Native</li>
 				<li>Russian: Native</li>
-				<li>English: Basic</li>
+				<li>English: Intermediate</li>
+				<li>Italian: Basic</li>
 			</ul>
 		</div>
 	</main>
-	<footer class="footer" id="footer">
-		<div class="footer">
+	<footer class="footer" id="git">
+		<div>
+			<p class="git"><a href="https://github.com/DPJSTS" title="Git">
+				<img src="assets/img/gitlogo.png" alt="github" width="250"></a></p>
+		</div>
+		<div>
+			<p class="rs"><a href="https://rs.school/js-stage0/" title="RS">
+				<img src="assets/img/rslogo.png" alt="rs.school js training course" width="200"></a></p>
+		</div>
+		<div>
 			<p class="year">&copy; 2022 CV Ermolenko Dmitry.</p>
-		</div>
-		<div class="footer">
-			<p class="github"><a href="https://github.com/DPJSTS" title="GitHub">
-				<img src="images/github.png" alt="github" width="100"></a></p>
-		</div>
-		<div class="footer">
-			<p class="rsschool"><a href="https://rs.school/js-stage0/" title="RS.School">
-				<img src="images/rs_school_js.svg" alt="rs.school training course" width="180"></a></p>
 		</div>
 	</footer>
 	</div>
